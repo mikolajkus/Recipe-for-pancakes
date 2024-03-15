@@ -9,11 +9,16 @@ body {
     font-weight: 400;
     font-style: normal;
     color: burlywood;
+    display: flex;
+    justify-content: center;
+    background-image: url("pancakes-background.jpg");
+    background-position: center;
+    background-size: cover;
 }
 
-.wrapper {
-    max-width: 1200px;
-}
+
+
+
 
 
 
