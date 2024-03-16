@@ -9,8 +9,13 @@ body {
     font-weight: 400;
     font-style: normal;
     color: burlywood;
+
+}
+
+.wrapper {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
     background-image: url("pancake.jpg");
     background-position: center;
     background-size: cover;
@@ -18,14 +23,10 @@ body {
     background-repeat: no-repeat;
 }
 
-.wrapper {
-    display: flex;
-    flex-direction: column;
-}
-
 .main-columns {
     display: flex;
     flex-direction: row-reverse;
+    margin: 500px 0 50px 0;
 }
 
 main {
@@ -42,21 +43,49 @@ aside {
 }
 
 .title {
-    margin: 40px 0 0 0;
+    width: 30%;
+    margin: 25px 0 0 0;
 }
 
 .main-title {
-    font-size: 30px;
+    font-size: 50px;
 }
 
 .instructions {
-    width: 50%;
+    width: 70%;
+}
+
+.instructions-title {
+    font-size: 30px;
+}
+
+.ingredients-box {
+    width: 300px;
+    height: 350px;
+}
+
+.ingredients-title {
+    font-size: 30px;
+}
+
+.ingredients-list-item {
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.instructions-list-item {
+    margin-bottom: 10px;
+    font-size: 20px;
 }
 
 .footer-box {
-    width: 140px;
     margin-top: 15px;
     padding-bottom: 30px;
+}
+
+.footer-text {
+    width: 100%;
+    font-size: 35px;
 }
 
 .background {
@@ -71,10 +100,22 @@ aside {
 }
 
 .margin-padding-list {
-    padding-left: 16px;
+    padding-left: 25px;
 }
 
+@media (max-width: 992px) {
+    .main-columns {
+        display: flex;
+        flex-direction: column;
+    }
 
+    .instructions {
+        width: 300px;
+        margin-top: 50px;
+    }
+
+
+}
 
 
 
