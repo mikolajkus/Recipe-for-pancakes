@@ -22,8 +22,8 @@ body {
 
 .main-columns {
     display: flex;
-    flex-direction: row-reverse;
-    margin: 500px 0 50px 0;
+    flex-direction: column;
+    margin: 50px 0 50px 0;
 }
 
 main {
@@ -45,33 +45,41 @@ aside {
 }
 
 .main-title {
-    font-size: 50px;
+    font-size: 45px;
 }
 
 .instructions {
-    width: 70%;
+    width: 90%;
+    margin-top: 70px;
 }
 
 .instructions-title {
     font-size: 30px;
 }
 
+.ingredients {
+    width: 95%;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 70px;
+}
+
 .ingredients-box {
-    width: 55%;
+    width: 25%;
 }
 
 .ingredients-title {
-    font-size: 30px;
+    font-size: 27px;
 }
 
 .ingredients-list-item {
-    margin-bottom: 10px;
-    font-size: 20px;
+    margin-bottom: 5px;
+    font-size: 17px;
 }
 
 .instructions-list-item {
-    margin-bottom: 10px;
-    font-size: 20px;
+    margin-bottom: 5px;
+    font-size: 17px;
 }
 
 .footer-box {
@@ -87,6 +95,7 @@ aside {
 
 .background {
     border-radius: 15px 15px 15px 15px;
+    box-shadow: 2px 3px 3px 2px black;
     background-color: #692e14;
     padding: 10px 10px 10px 10px;
 }
@@ -104,28 +113,48 @@ aside {
     .main-columns {
         display: flex;
         flex-direction: column;
+        margin-top: 50px;
+    }
+
+    .instructions {
+        width: 90%;
+        margin-top: 50px;
+    }
+
+    .ingredients {
+        width: 95%;
+        justify-content: flex-end;
+    }
+}
+
+@media (max-width: 700px) {
+    .main-columns {
+        margin: 450px 0 50px 0;
     }
 
     .instructions {
         margin-top: 50px;
     }
 
-    .font-size-title {
-        font-size: 25px;
-    }
-
-    .font-size-items {
-        font-size: 18px;
+    .ingredients {
+        width: 100%;
+        justify-content: center;
     }
 
     .ingredients-box {
-        width: 300px;
+        width: 387px;
+        justify-content: flex-end;
     }
 }
 
 @media (max-width: 429px) {
+    .ingredients {
+        width: 100%;
+        justify-content: center;
+    }
+
     .ingredients-box {
-        width: 70%;
+        width: 90%;
     }
 
     .footer-text {
