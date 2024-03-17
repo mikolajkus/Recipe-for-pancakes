@@ -40,7 +40,7 @@ aside {
 }
 
 .title {
-    width: 30%;
+    width: 100%;
     margin: 25px 0 0 0;
 }
 
@@ -57,8 +57,7 @@ aside {
 }
 
 .ingredients-box {
-    width: 300px;
-    height: 350px;
+    width: 55%;
 }
 
 .ingredients-title {
@@ -76,6 +75,7 @@ aside {
 }
 
 .footer-box {
+    width: 100%;
     margin-top: 15px;
     padding-bottom: 30px;
 }
@@ -105,13 +105,32 @@ aside {
         display: flex;
         flex-direction: column;
     }
-    
+
     .instructions {
-        width: 300px;
         margin-top: 50px;
     }
 
+    .font-size-title {
+        font-size: 25px;
+    }
 
+    .font-size-items {
+        font-size: 18px;
+    }
+
+    .ingredients-box {
+        width: 300px;
+    }
+}
+
+@media (max-width: 429px) {
+    .ingredients-box {
+        width: 70%;
+    }
+
+    .footer-text {
+        font-size: 25px;
+    }
 }
 
 
