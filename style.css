@@ -16,11 +16,8 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-image: url("pancake.jpg");
-    background-position: center;
+    background: url("pancake.jpg") no-repeat center fixed;
     background-size: cover;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
 }
 
 .main-columns {
@@ -108,7 +105,7 @@ aside {
         display: flex;
         flex-direction: column;
     }
-
+    
     .instructions {
         width: 300px;
         margin-top: 50px;
