@@ -22,7 +22,7 @@ body {
 .main-columns {
     display: flex;
     flex-direction: column;
-    margin: 50px 0 50px 0;
+    margin: 100px 0 50px 0;
 }
 
 main {
@@ -44,7 +44,7 @@ aside {
 }
 
 .main-title {
-    font-size: 35px;
+    font-size: 45px;
 }
 
 .instructions {
@@ -111,7 +111,6 @@ aside {
     .main-columns {
         display: flex;
         flex-direction: column;
-        margin-top: 50px;
     }
 
     .instructions {
@@ -131,7 +130,7 @@ aside {
     }
 
     .instructions {
-        margin-top: 100px;
+        margin-top: 150px;
     }
 
     .ingredients {
@@ -142,6 +141,7 @@ aside {
     .ingredients-box {
         width: 387px;
         justify-content: flex-end;
+        margin-top: 100px;
     }
 }
 
