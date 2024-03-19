@@ -12,17 +12,20 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: url("pancakes1.jpg") no-repeat center fixed;
-    background-size: contain;
+
 }
 
 .wrapper {
+    width: 2560px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    background: url("pancakes2.jpg") no-repeat center fixed;
+    background-size: contain;
 }
 
 .main-columns {
+    width: 100%;
     display: flex;
     flex-direction: column;
     margin: 100px 0 50px 0;
@@ -47,7 +50,7 @@ aside {
 }
 
 .main-title {
-    font-size: 45px;
+    font-size: 120px;
 }
 
 .instructions {
@@ -56,7 +59,7 @@ aside {
 }
 
 .instructions-title {
-    font-size: 30px;
+    font-size: 70px;
 }
 
 .ingredients {
@@ -71,17 +74,17 @@ aside {
 }
 
 .ingredients-title {
-    font-size: 27px;
+    font-size: 70px;
 }
 
 .ingredients-list-item {
     margin-bottom: 5px;
-    font-size: 17px;
+    font-size: 35px;
 }
 
 .instructions-list-item {
     margin-bottom: 5px;
-    font-size: 17px;
+    font-size: 35px;
 }
 
 .footer-box {
@@ -91,7 +94,7 @@ aside {
 
 .footer-text {
     width: 100%;
-    font-size: 35px;
+    font-size: 75px;
 }
 
 .background {
@@ -107,10 +110,10 @@ aside {
 }
 
 .margin-padding-list {
-    padding-left: 25px;
+    padding-left: 45px;
 }
 
-@media (max-width: 992px) {
+@media (max-width: 1700px) {
     .main-columns {
         display: flex;
         flex-direction: column;
@@ -127,7 +130,7 @@ aside {
     }
 }
 
-@media (max-width: 700px) {
+@media (max-width: 1700px) {
     .main-columns {
         margin: 450px 0 50px 0;
     }
