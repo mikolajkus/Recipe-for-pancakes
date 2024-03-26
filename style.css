@@ -15,15 +15,17 @@ body {
     background-color: #fdd39b;
 }
 
+.background-image {
+    background: url("pancakes2.jpg") no-repeat center fixed;
+    background-size: 100%;
+    overflow: auto;
+}
+
 .wrapper {
-    max-width: 1600px;
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    background: url("pancakes2.jpg") no-repeat center fixed;
-    background-size: 1600px;
-    overflow: auto;
 }
 
 .image {
@@ -124,13 +126,6 @@ aside {
     padding: 10px 10px 10px 10px;
 }
 
-.background-instructions {
-    border-radius: 15px 15px 0 0;
-    box-shadow: 3px 0 3px 0 black;
-    background-color: #692e14;
-    padding: 10px 10px 10px 10px;
-}
-
 .flex-box {
     display: flex;
     justify-content: center;
@@ -167,7 +162,7 @@ aside {
 }
 
 @media (max-width: 1024px) {
-    .wrapper {
+    .background-image {
         background: none;
     }
 
