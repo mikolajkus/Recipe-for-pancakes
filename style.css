@@ -140,10 +140,6 @@ aside {
 }
 
 @media (max-width: 1200px) {
-    .instructions {
-        margin: 0;
-    }
-
     .main-columns {
         margin-top: 650px;
     }
@@ -162,6 +158,10 @@ aside {
 
     .ingredients-box {
         width: 60%;
+    }
+    
+    .instructions {
+        margin: 0;
     }
 }
 
