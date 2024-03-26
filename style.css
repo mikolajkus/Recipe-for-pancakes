@@ -35,6 +35,7 @@ body {
     display: flex;
     flex-direction: column;
     margin-top: 90px;
+    padding-bottom: 30px;
 }
 
 main {
