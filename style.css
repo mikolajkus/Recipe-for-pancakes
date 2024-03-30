@@ -16,7 +16,11 @@ body {
 }
 
 .background-image {
-    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
     background: url("pancakes2.jpg") no-repeat center fixed;
     background-size: cover;
     overflow: auto;
@@ -79,12 +83,11 @@ aside {
 
 .description-box {
     width: 40%;
-    height: 75%;
     margin-left: 35px;
 }
 
 .description-text {
-    font-size: 18px;
+    font-size: 15px;
 }
 
 .instructions {
@@ -108,7 +111,6 @@ aside {
 
 .ingredients-box {
     width: 40%;
-    height: 75%;
     margin-right: 35px;
 }
 
